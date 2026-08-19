@@ -73,13 +73,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "rakhsetu" },
+      { title: "raktsetu" },
       {
         name: "description",
         content:
-          "Rakhsetu coordinates emergency blood requests in real time across hospitals, blood banks and verified donors.",
+          "Raktsetu coordinates emergency blood requests in real time across hospitals, blood banks and verified donors.",
       },
-      { property: "og:title", content: "Rakhsetu — Emergency Blood Coordination" },
+      { property: "og:title", content: "Raktsetu — Emergency Blood Coordination" },
       {
         property: "og:description",
         content: "Real-time emergency blood coordination command center.",

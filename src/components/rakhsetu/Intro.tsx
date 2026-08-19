@@ -24,7 +24,7 @@ export function Intro({ onDone }: { onDone: () => void }) {
           textShadow: "0 0 60px rgba(157,23,77,0.55)",
         }}
       >
-        rakhsetu.
+        raktsetu.
       </h1>
     </div>
   );

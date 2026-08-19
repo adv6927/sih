@@ -43,13 +43,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "rakhsetu" },
+      { title: "raktsetu" },
       {
         name: "description",
         content:
-          "Rakhsetu coordinates real-time emergency blood requests: smart donor matching, live tracking, inventory and demand analytics in one command center.",
+          "Raktsetu coordinates real-time emergency blood requests: smart donor matching, live tracking, inventory and demand analytics in one command center.",
       },
-      { property: "og:title", content: "Rakhsetu — Emergency Command Center" },
+      { property: "og:title", content: "Raktsetu — Emergency Command Center" },
       {
         property: "og:description",
         content:
@@ -109,7 +109,7 @@ function Dashboard() {
             <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-primary/60 bg-[#171019] text-primary">
               <HeartPulse size={20} strokeWidth={1.7} />
             </span>
-            <span className="hidden text-sm font-semibold tracking-tight lowercase xl:block">rakhsetu.</span>
+            <span className="hidden text-sm font-semibold tracking-tight lowercase xl:block">raktsetu.</span>
           </div>
           {navItems.map(({ key, label, icon: Icon }) => {
             const isActive = active === key;
